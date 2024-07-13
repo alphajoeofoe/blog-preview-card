@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif ;
+    min-height: 100vh;
+    text-align: center;
+    
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 50px;
+    
+    
+    
+    
+  
+}
+
+
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    
+    border-radius: 10px;
+    width: 380px;
+    box-shadow: 10px 10px 0px black;
+    border: 1px solid black;
+    
+    
+    
+    
+}
+
+.first_content h3 {
+    background-color:hsl(47, 88%, 63%);
+    width: 9ch;
+    
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+   
+    
+}
+
+.first_content p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.second_content {
+    
+    text-align: left;
+    padding: 5px;
+}
+
+
+.second_content h1:hover {
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
+
+
+
+.second_content p {
+    color: hsl(0, 0%, 50%);
+    
+
+
+}
+
+
+.card img {
+    border-radius: 20px;
+    
+    margin-top: 15px  ;
+} 
+
+.profile_content {
+    display: flex;
+    font-size: 10px;
+    padding: 20px;
+    
+}
+
+.profile_image {
+    height: 40px;
+
+}
+
+.profile_content h2 {
+    padding-left: 10px;
+    margin-top: auto;
+}
+
